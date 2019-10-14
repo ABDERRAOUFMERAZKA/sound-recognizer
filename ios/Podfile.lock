@@ -1,20 +1,26 @@
 PODS:
   - Flutter (1.0.0)
+  - permission (0.0.1):
+    - Flutter
   - speech_recognition (0.3.0):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
+  - permission (from `.symlinks/plugins/permission/ios`)
   - speech_recognition (from `.symlinks/plugins/speech_recognition/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: ".symlinks/flutter/ios"
+  permission:
+    :path: ".symlinks/plugins/permission/ios"
   speech_recognition:
     :path: ".symlinks/plugins/speech_recognition/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  permission: 51e2d3a8ef3490da0537667d7f1a6a1c5ba8ec47
   speech_recognition: b5319aace06c3633c0547de44899f6e0bf8b2168
 
 PODFILE CHECKSUM: cbef8e4a57a86c3868c08b6e0da920e75fc13462

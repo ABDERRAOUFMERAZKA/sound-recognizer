@@ -11,7 +11,7 @@ class _TabsState extends State<Tabs> {
   // init list of tabsbar
   final List<Map<String, Object>> _listTabsbar = [
     {
-      'title': 'Sound Recognizer',
+      'title': 'Speech Recognition',
       'body': VoiceHome(),
       'icon': Icons.home,
       'icon_name': 'Home',
@@ -38,10 +38,9 @@ class _TabsState extends State<Tabs> {
       leading: Builder(
           builder: (BuildContext context){
             return IconButton(
-              icon: Icon(Icons.volume_up),
+              icon: Icon(_listTabsbar[_indexTabsbar]['icon']),
               color: Colors.white,
               onPressed: () {
-
               },
             );
           }),
