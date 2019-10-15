@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Tabs(),
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.cyan,
         accentColor: Colors.white,
         textTheme: TextTheme(
           title: TextStyle(
-              fontSize: 18, fontWeight: FontWeight.bold, color: Colors.lightBlue),
+              fontSize: 18, fontWeight: FontWeight.bold, color: Colors.cyanAccent),
         ),
       ),
     );

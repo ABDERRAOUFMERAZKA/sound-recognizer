@@ -66,8 +66,10 @@ class _VoiceHomeState extends State<VoiceHome> {
                   new Expanded(
                       child: new Container(
                           padding: const EdgeInsets.all(8.0),
-                          color: Colors.grey.shade200,
-                          child: new Text(transcription))),
+                          color: Colors.grey.shade400,
+                          child: new Text(
+                            'you said: $transcription',
+                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)))),
                   _buildButton(
                     onPressed: !_isListening
                         ? () => start()
